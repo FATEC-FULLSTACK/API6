@@ -1,3 +1,6 @@
 [submodule "BACKEND-API6S"]
 	path = BACKEND-API6S
 	url = git@github.com:FATEC-FULLSTACK/BACKEND-API6S.git
+[submodule "FRONTEND-API6S"]
+	path = FRONTEND-API6S
+	url = git@github.com:FATEC-FULLSTACK/FRONTEND-API6S.git
