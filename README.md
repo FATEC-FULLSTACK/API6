@@ -8,7 +8,6 @@
 <span id="topo">
 <p align="center">
     <a href="#sobre">Sobre</a>  | 
-    <a href="#demonstracao">Demonstração</a>  |  
     <a href="#sprints">Entrega das Sprints</a>  |  
     <a href="#backlogs">Backlog do Produto</a>  |  
     <a href="#planejamento">Planejamento das Sprints</a>  |   
@@ -34,17 +33,6 @@ Além disso, a plataforma será projetada para ser intuitiva e acessível, com i
 :pushpin: Status do Projeto: **Em desenvolvimento** 🚧
 
 
-<br>
-
-<span id="demonstracao">
-
-<br>
-
-## :movie_camera: Demonstração
-
-Confira o Mínimo Produto Viável (Minimum Viable Product - MVP) da Sprint 1 no link abaixo:
-
-[Link para vídeo no YouTube](https://www.youtube.com/watch?v=cXbXq8ZWd0A).
 
 <br>
 
@@ -136,7 +124,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 Este projeto segue o padrão de commit descrito no link abaixo, garantindo clareza e organização no versionamento do código:
 
-[Link Padrão de Commit](https://github.com/ClaudiaCBS/Teste_API/blob/main/docs/README.md)
+[Link Padrão de Commit](https://github.com/FATEC-FULLSTACK/API6/blob/main/docs/README.md)
 
 <br>
 
