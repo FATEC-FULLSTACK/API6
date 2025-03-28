@@ -52,7 +52,7 @@ Além disso, a plataforma será projetada para ser intuitiva e acessível, com i
 ## :dart: Backlog do Produto
 
 <p align="center">
-      <img src="/docs/Backlog.png" alt="Backlog do Produto">
+      <img src="/docs/backlog.png" alt="Backlog do Produto">
 
 
 <span id="planejamento">
@@ -60,7 +60,7 @@ Além disso, a plataforma será projetada para ser intuitiva e acessível, com i
 ## :dart: Planejamento das Sprints
 
 <p align="center">
-      <img src="/docs/Planejamento_Sprints.png" alt="Planejamento das Sprints">
+      <img src="/docs/planejamentosprints.png" alt="Planejamento das Sprints">
 
 
 <span id="tecnologias">
