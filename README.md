@@ -3,16 +3,16 @@
 # Projeto Plataforma de Treinamento de IA
 
 <p align="center">
-      <img src="/docs/fullstack.png" alt="Logo da Equipe FullStack">
+      <img src="/Documentacao/img/fullstack.png" alt="Logo da Equipe FullStack">
 
 <span id="topo">
 <p align="center">
     <a href="#sobre">Sobre</a>  | 
     <a href="#sprints">Entrega das Sprints</a>  |  
     <a href="#backlogs">Backlog do Produto</a>  |  
-    <a href="#planejamento">Planejamento das Sprints</a>  |   
     <a href="#tecnologias">Tecnologias</a>  |  
     <a href="#commit">Padrão de Commit</a>  |
+    <a href="#branch">Estratégia de Branch</a>  |
     <a href="#equipe">Equipe</a>  |  
     <a href="#focal">Focal Point</a>  
     
@@ -22,11 +22,16 @@
 
 ## :bookmark_tabs: Sobre o projeto
 
-O projeto Plataforma de Treinamento de IA tem como objetivo desenvolver uma solução tecnológica para aprimorar modelos de linguagem (LLMs) por meio de feedback humano, utilizando técnicas de Aprendizado por Reforço com Feedback Humano (RLHF). A ideia é criar uma plataforma web que permita aos usuários comparar respostas de diferentes LLMs, avaliar com base em critérios específicos e fornecer feedback para o aprimoramento contínuo dos modelos.
+**Problema:** 
+Com o crescimento do uso de Modelos de Linguagem (LLMs) em diversas aplicações, surge a necessidade de aprimorar sua qualidade e precisão de forma contínua. No entanto, muitas abordagens de treinamento ainda carecem de envolvimento humano direto no processo de avaliação e melhoria. A ausência de uma plataforma centralizada que permita comparar, avaliar e fornecer feedback humano estruturado sobre as respostas dos LLMs dificulta o avanço de modelos mais alinhados às expectativas humanas em critérios como coerência, veracidade, naturalidade da linguagem e segurança.
 
-O sistema será desenvolvido com tecnologias modernas, como Vue.js para o frontend, Python com FastAPI e Langchain para o backend, e MongoDB como banco de dados. A plataforma fará integração com bancos de dados vetorizados, como Pinecone ou Weaviate, garantindo eficiência no armazenamento e recuperação de dados. A aplicação permitirá que os usuários enviem perguntas, visualizem respostas de dois LLMs (OpenAI e Gemini), avaliem as respostas com base em critérios como coerência, verdade, linguagem natural e risco, e forneçam feedback detalhado para o treinamento dos modelos.
+**Proposta de Solução:** 
+Para resolver esse desafio, será desenvolvida uma Plataforma de Treinamento de IA — uma solução web que permite ao usuário comparar respostas geradas por diferentes LLMs, avaliar as respostas com base em critérios definidos e fornecer feedback direto para o treinamento dos modelos utilizando técnica de Aprendizado por Reforço com Feedback Humano (RLHF).
 
-Além disso, a plataforma será projetada para ser intuitiva e acessível, com interfaces claras e interativas, garantindo uma experiência de usuário fluida. O cuidado com a segurança dos dados também é uma prioridade, visando proteger as informações dos usuários e garantir a confiabilidade do sistema. O protótipo da interface será desenvolvido e apresentado utilizando o Figma, permitindo validações rápidas e ajustes antes da implementação final.
+A aplicação será construída com tecnologias modernas, como Vue.js no frontend, Python com FastAPI e Langchain no backend, utilizando MongoDB como banco de dados. A plataforma também contará com integração com bancos vetorizados como Pinecone ou Weaviate, garantindo eficiência na recuperação de informações.
+
+Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LLMs (OpenAI e Gemini), realizar avaliações detalhadas com base em critérios específicos, e contribuir ativamente para o aprimoramento dos modelos. A interface será desenvolvida com foco em usabilidade e acessibilidade, utilizando o Figma para validação rápida e iterativa de protótipos antes da implementação.
+
 
 > _Projeto conduzido de acordo com a metodologia ágil SCRUM, que garante uma abordagem flexível e colaborativa, com entregas contínuas e foco na adaptação às necessidades dos usuários. Cada Sprint permitirá que funcionalidades como envio de prompts, exibição de respostas, avaliação com critérios, desempate entre respostas e integração com RAG (Retrieval-Augmented Generation) sejam implementadas e melhoradas progressivamente._
 
@@ -40,11 +45,14 @@ Além disso, a plataforma será projetada para ser intuitiva e acessível, com i
 
 ### :spiral_calendar: Entrega das Sprints
 
-| Sprint | Previsão de entrega | Status                       |
-| :----: | :-----------------: | :--------------------------- |
-|   01   |     30/03/2025      | :white_check_mark: Concluído |
-|   02   |     27/04/2025      | 🚧 Em desenvolvimento |
-|   03   |     25/05/2025      | 🚧 Em desenvolvimento |
+| Sprint | Previsão de entrega | Status | Histórico |
+|:--:|:----------:|:-------------------|:-------------------------------------------------:|
+| 01 | 30/03/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint01/README.md) |
+| 02 | 27/04/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint02/README.md) |
+| 03 | 25/05/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint03/README.md) |
+
+
+<br>
 
 
 <span id="backlogs">
@@ -52,15 +60,10 @@ Além disso, a plataforma será projetada para ser intuitiva e acessível, com i
 ## :dart: Backlog do Produto
 
 <p align="center">
-      <img src="/docs/backlog.png" alt="Backlog do Produto">
+      <img src="/Documentacao/img/backlog.png" alt="Backlog do Produto">
 
 
-<span id="planejamento">
-
-## :dart: Planejamento das Sprints
-
-<p align="center">
-      <img src="/docs/planejamentosprints.png" alt="Planejamento das Sprints">
+<br>
 
 
 <span id="tecnologias">
@@ -115,18 +118,32 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 </table>
 
 
+<br>
+
 
 <span id="commit">
 
-<br>
-
-## :pencil: Padrão de Commit
+## :pencil: Padrão de Commits
 
 Este projeto segue o padrão de commit descrito no link abaixo, garantindo clareza e organização no versionamento do código:
 
-[Link Padrão de Commit](https://github.com/FATEC-FULLSTACK/API6/blob/main/docs/README.md)
+[Link Padrão de Commits](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Commits/README.md)
+
 
 <br>
+
+
+<span id="branch">
+
+## :deciduous_tree:  Estratégia de Branch do Projeto
+
+Este projeto adota um fluxo de trabalho baseado no Git Flow, com branches estruturadas para garantir organização e rastreabilidade durante o desenvolvimento. Abaixo está o link das diretrizes principais:
+
+[Link Estratégia de Branch](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Branch/README.md)
+
+
+<br>
+
 
 <span id="equipe">
 
@@ -143,6 +160,9 @@ Este projeto segue o padrão de commit descrito no link abaixo, garantindo clare
 |   Dev Team    | Lucas Nunes Duarte do Nascimento |    [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-nunes-nascimento/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Lkduarte)     |
 |   Dev Team    | Mateus de Sousa Raimundo         |  [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mateus-sousa-ba976423a/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MateusdiSousa)  |
 |   Dev Team    | Thiago Carvalho da Silva         |  [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-silva-49bb74168/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/tsilvadev89)  |
+
+
+<br>
 
 
 <span id="focal">
