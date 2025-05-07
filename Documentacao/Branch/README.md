@@ -41,29 +41,74 @@ Este projeto adota um fluxo de trabalho baseado no Git Flow, com branches estrut
 
 `feature/<codigo-Jira>/<nome-da-tarefa>`
 
-- Ex: `feature/FAT-15/readme`
+- Ex: `feature/FAT-15/feature-x`
 
 <br>
+
+### Branch `refactor/<Jira-ID>/<nome-da-feature>`
+
+- 🌱 Criada a partir de `develop`
+- 🏷️ Padrão de nomenclatura:
+
+`refactor/<codigo-Jira>/<nome-da-tarefa>`
+
+- Ex: `refactor/FAT-16/refatorando-x`
+
+<br>
+
+### Branch `fix/<Jira-ID>/<nome-da-feature>`
+
+- 🌱 Criada a partir de `develop`
+- 🏷️ Padrão de nomenclatura:
+
+`fix/<codigo-Jira>/<nome-da-tarefa>`
+
+- Ex: `fix/FAT-17/bug-x`
+
+<br>
+
+### Branch `chore/<Jira-ID>/<nome-da-feature>`
+
+- 🌱 Criada a partir de `develop`
+- 🏷️ Padrão de nomenclatura:
+
+`chore/<codigo-Jira>/<nome-da-tarefa>`
+
+- Ex: `chore/FAT-18/mudanca-x`
+
+<br>
+
+### Branch `docs/<Jira-ID>/<nome-da-feature>`
+
+- 🌱 Criada a partir de `develop`
+- 🏷️ Padrão de nomenclatura:
+
+`docs/<codigo-Jira>/<nome-da-tarefa>`
+
+- Ex: `docs/FAT-19/readme`
+
+<br>
+
 
 ## Fluxo de Trabalho
 
 **1. Criar branch:**
    ```bash
-   git checkout -b feature/FAT-15/readme develop
+   git checkout -b docs/FAT-19/readme develop
    ```
 
 <br>
 
 **2. Commitar alterações:**
    ```bash
-   git commit -m "FAT-15: docs: Adiciona seção de instalação"
+   git commit -m "FAT-19: docs: Correção da Documentação"
    ```
 
 <br>
 
 **3. Enviar para Revisão:**
    ```bash
-   git push origin feature/FAT-15/readme
+   git push origin docs/FAT-19/readme
    ```
 
 <br>
@@ -71,7 +116,6 @@ Este projeto adota um fluxo de trabalho baseado no Git Flow, com branches estrut
 **4. Abrir Pull Request para:** `develop`
 
 <br>
-
 
 
 

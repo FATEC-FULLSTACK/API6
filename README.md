@@ -48,7 +48,7 @@ Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LL
 | Sprint | Previsão de entrega | Status | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
 | 01 | 30/03/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint01/README.md) |
-| 02 | 27/04/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint02/README.md) |
+| 02 | 27/04/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint02/README.md) |
 | 03 | 25/05/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint03/README.md) |
 
 
@@ -95,7 +95,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
     title="Vue.js"
     style="display: inline-block; margin: 0 auto; width: 60px"></th>
     <th><img
-    src="/docs/langchain.png"
+    src="/Documentacao/img/langchain.png"
     alt="Logo LangChain"
     title="LangChain"
     style="display: inline-block; margin: 0 auto; width: 60px"></th>
