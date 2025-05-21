@@ -48,9 +48,9 @@ Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LL
 
 | Sprint | Previsão de entrega | Status | Histórico |
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
-| 01 | 30/03/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint01/README.md) |
-| 02 | 27/04/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint02/README.md) |
-| 03 | 25/05/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Sprint03/README.md) |
+| 01 | 30/03/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint01/README.md) |
+| 02 | 27/04/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint02/README.md) |
+| 03 | 25/05/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint03/README.md) |
 
 
 <br>
