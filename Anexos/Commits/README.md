@@ -3,7 +3,7 @@
 # Projeto Plataforma de Treinamento de IA
 
 <p align="center">
-      <img src="/Documentacao/img/fullstack.png" alt="Logo da Equipe FullStack">
+      <img src="/Anexos/img/fullstack.png" alt="Logo da Equipe FullStack">
 
 
 
