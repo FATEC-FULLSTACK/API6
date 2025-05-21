@@ -67,27 +67,7 @@ Este projeto adota um fluxo de trabalho baseado no Git Flow, com branches estrut
 
 <br>
 
-### Branch `chore/<Jira-ID>/<nome-da-feature>`
 
-- 🌱 Criada a partir de `develop`
-- 🏷️ Padrão de nomenclatura:
-
-`chore/<codigo-Jira>/<nome-da-tarefa>`
-
-- Ex: `chore/FAT-18/mudanca-x`
-
-<br>
-
-### Branch `docs/<Jira-ID>/<nome-da-feature>`
-
-- 🌱 Criada a partir de `develop`
-- 🏷️ Padrão de nomenclatura:
-
-`docs/<codigo-Jira>/<nome-da-tarefa>`
-
-- Ex: `docs/FAT-19/readme`
-
-<br>
 
 
 ## Fluxo de Trabalho

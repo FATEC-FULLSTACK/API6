@@ -3,7 +3,7 @@
 # Projeto Plataforma de Treinamento de IA
 
 <p align="center">
-      <img src="/Documentacao/img/fullstack.png" alt="Logo da Equipe FullStack">
+      <img src="/Anexos/img/fullstack.png" alt="Logo da Equipe FullStack">
 
 <span id="topo">
 <p align="center">
@@ -11,6 +11,7 @@
     <a href="#sprints">Entrega das Sprints</a>  |  
     <a href="#backlogs">Backlog do Produto</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
+    <a href="#docs">Documentação do Produto</a>  |  
     <a href="#commit">Padrão de Commit</a>  |
     <a href="#branch">Estratégia de Branch</a>  |
     <a href="#equipe">Equipe</a>  |  
@@ -60,7 +61,7 @@ Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LL
 ## :dart: Backlog do Produto
 
 <p align="center">
-      <img src="/Documentacao/img/backlog.png" alt="Backlog do Produto">
+      <img src="/Anexos/img/backlog.png" alt="Backlog do Produto">
 
 
 <br>
@@ -95,7 +96,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
     title="Vue.js"
     style="display: inline-block; margin: 0 auto; width: 60px"></th>
     <th><img
-    src="/Documentacao/img/langchain.png"
+    src="/Anexos/img/langchain.png"
     alt="Logo LangChain"
     title="LangChain"
     style="display: inline-block; margin: 0 auto; width: 60px"></th>
@@ -121,13 +122,26 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 <br>
 
 
+<span id="docs">
+
+## :clipboard:  Documentação do Produto
+
+A plataforma disponibiliza uma área com a documentação do produto para auxiliar o usuário em todas as etapas de uso do sistema. Abaixo está o link de acesso:
+
+[Link Documentacao do Produto](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/README.md)
+
+
+<br>
+
+
+
 <span id="commit">
 
 ## :pencil: Padrão de Commits
 
 Este projeto segue o padrão de commit descrito no link abaixo, garantindo clareza e organização no versionamento do código:
 
-[Link Padrão de Commits](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Commits/README.md)
+[Link Padrão de Commits](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Commits/README.md)
 
 
 <br>
@@ -139,7 +153,7 @@ Este projeto segue o padrão de commit descrito no link abaixo, garantindo clare
 
 Este projeto adota um fluxo de trabalho baseado no Git Flow, com branches estruturadas para garantir organização e rastreabilidade durante o desenvolvimento. Abaixo está o link das diretrizes principais:
 
-[Link Estratégia de Branch](https://github.com/FATEC-FULLSTACK/API6/blob/main/Documentacao/Branch/README.md)
+[Link Estratégia de Branch](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Branch/README.md)
 
 
 <br>

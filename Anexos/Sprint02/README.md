@@ -4,7 +4,7 @@
 
 
 <p align="center">
-      <img src="/Documentacao/img/fullstack.png" alt="Logo da Equipe FullStack">
+      <img src="/Anexos/img/fullstack.png" alt="Logo da Equipe FullStack">
 
 
 <hr>
@@ -126,7 +126,7 @@ O DOD define quando uma tarefa está concluída e pronta para ser entregue. Para
 ## :dart: Backlog da Sprint
 
 <p align="center">
-      <img src="/Documentacao/img/backlogs2.png" alt="Backlog da Sprint">
+      <img src="/Anexos/img/backlogs2.png" alt="Backlog da Sprint">
 
 
 
