@@ -40,7 +40,6 @@ A Sprint 3 focou em análise comparativa avançada e integração com fontes cie
 
 - Visualização gráfica comparativa (em barras) entre os LLMs
 - Métricas baseadas em avaliações humanas (média de notas, tendências)
-- Filtros por período e tópicos (ex.: Alzheimer)
 
 **4. Documentação e pipeline de RLHF:**
 

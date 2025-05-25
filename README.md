@@ -11,6 +11,7 @@
     <a href="#sprints">Entrega das Sprints</a>  |  
     <a href="#backlogs">Backlog do Produto</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
+    <a href="#video">Demonstração</a>  |  
     <a href="#docs">Documentação do Produto</a>  |  
     <a href="#commit">Padrão de Commit</a>  |
     <a href="#branch">Estratégia de Branch</a>  |
@@ -36,7 +37,7 @@ Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LL
 
 > _Projeto conduzido de acordo com a metodologia ágil SCRUM, que garante uma abordagem flexível e colaborativa, com entregas contínuas e foco na adaptação às necessidades dos usuários. Cada Sprint permitirá que funcionalidades como envio de prompts, exibição de respostas, avaliação com critérios, desempate entre respostas e integração com RAG (Retrieval-Augmented Generation) sejam implementadas e melhoradas progressivamente._
 
-:pushpin: Status do Projeto: **Em desenvolvimento** 🚧
+:pushpin: Status do Projeto: **Concluído** :white_check_mark:
 
 
 
@@ -50,7 +51,7 @@ Os usuários poderão enviar perguntas, visualizar respostas geradas por dois LL
 |:--:|:----------:|:-------------------|:-------------------------------------------------:|
 | 01 | 30/03/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint01/README.md) |
 | 02 | 27/04/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint02/README.md) |
-| 03 | 25/05/2025 | :construction: Em Desenvolvimento | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint03/README.md) |
+| 03 | 25/05/2025 | :white_check_mark: Concluído | [Ver relatório](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Sprint03/README.md) |
 
 
 <br>
@@ -120,6 +121,18 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 
 <br>
+
+
+<span id="video">
+
+## :movie_camera: Demonstração
+
+Confira o Mínimo Produto Viável (Minimum Viable Product - MVP) no link abaixo:
+
+[Link para vídeo no YouTube](https://www.youtube.com/watch?v=cXbXq8ZWd0A).
+
+<br>
+
 
 
 <span id="docs">
