@@ -43,49 +43,49 @@ Com essa entrega, garantimos que o sistema esteja **operacional, usável e pront
 
 O DOR define quando uma tarefa está pronta para ser trabalhada em uma sprint. O objetivo dessa Sprint foi implementar o fluxo básico de envio de prompts e exibição de respostas dos LLMs.
 
-**Tarefa:** Frontend da tela de prompts (Vue.js) - Criar interface com campo de input e botão de envio.
+**Tarefa:** Frontend da tela de prompts (Vue.js) - Criar interface com campo de input e botão de envio
 
 **Critérios de Aceitação:** 
 1. Layout responsivo
 2. Validação de input
 3. Feedback visual durante loading
 
-**Tarefa:** Backend da tela de prompts (FastAPI) - Criar endpoint POST /chat.
+**Tarefa:** Backend da tela de prompts (FastAPI) - Criar endpoint POST /chat
 
 **Critérios de Aceitação:**
 1. Receber JSON com prompt
 2. Retornar status 200 (OK)
 3. Retornar as respostas dos LLMs (OpenAI e Gemini)
 
-**Tarefa:** Integração com OpenAI - Configurar API e formatar respostas.
+**Tarefa:** Integração com OpenAI - Configurar API e formatar respostas
 
 **Critérios de Aceitação:**
 1. Timeout de 15s
 2. Tratamento de erros
 3. Formato padrão de resposta
 
-**Tarefa:** Integração com Gemini - Configurar API e formatar respostas.
+**Tarefa:** Integração com Gemini - Configurar API e formatar respostas
 
 **Critérios de Aceitação:**
 1. Timeout de 15s
 2. Tratamento de erros
 3. Formato padrão de resposta 
 
-**Tarefa:** Frontend das respostas (Vue.js) - Criar view com 2 colunas para exibição.
+**Tarefa:** Frontend das respostas (Vue.js) - Criar view com 2 colunas para exibição
 
 **Critérios de Aceitação:**
 1. Criação de componente que mostra a resposta
 2. O layout deve ser responsível
 3. Duas colunas devem mostrar as respostas dos LLMs recebido do backend
 
-**Tarefa:** Integração frontend-backend – frontend realizar requisição para as rotas do backend.
+**Tarefa:** Integração frontend-backend – frontend realizar requisição para as rotas do backend
 
 **Critérios de Aceitação:**
-1. A página de prompt deverá realizar requisição POST com o input do usuário na rota /chat.
-2. A página de prompt deverá receber a resposta do backend e mostrar as respostas das LLMs usando o componente de resposta.
+1. A página de prompt deverá realizar requisição POST com o input do usuário na rota /chat
+2. A página de prompt deverá receber a resposta do backend e mostrar as respostas das LLMs usando o componente de resposta
 3. Adicionar uma interface visual de loading enquanto o frontend espera a resposta do backend
 
-**Tarefa:** Banco de dados das avaliações das respostas (MongoDB) - Criar coleção avaliacao.
+**Tarefa:** Banco de dados das avaliações das respostas (MongoDB) - Criar coleção avaliacao
 
 Critérios de Aceitação:
 1. Criar coleção "avaliacao" no MongoDB com o seguinte schema: {
@@ -101,7 +101,7 @@ Critérios de Aceitação:
     feedback_usuario,
     melhor_performance
 }
-2. Criar modelo no FastApi que representa o schema avaliacao no banco.
+2. Criar modelo no FastApi que representa o schema avaliacao no banco
 
 
 <br>

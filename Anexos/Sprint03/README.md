@@ -22,16 +22,32 @@
 
 ## :bookmark_tabs: MVP da Sprint
 
-A Sprint 1 teve como principal objetivo a entrega do **MVP (Produto Mínimo Viável)** da Plataforma de Treinamento de IA, estabelecendo as bases essenciais para a interação entre usuário e sistema.  
+A Sprint 3 focou em análise comparativa avançada e integração com fontes científicas, consolidando o sistema como uma ferramenta robusta para avaliação de LLMs. As principais entregas foram:
 
-Nesta etapa inicial, desenvolvemos uma **interface funcional e intuitiva**, onde o usuário pode:  
-- **Inserir uma pergunta** em um campo dedicado;  
-- **Enviar a consulta** para processamento por dois modelos de linguagem (LLMs);  
-- **Visualizar as respostas geradas**, exibidas lado a lado para comparação imediata.  
+**1. Comparação final de respostas avaliadas:**
 
-Essa funcionalidade representa o **núcleo da aplicação**, pois permite não apenas a interação básica, mas também **inicia o processo de avaliação comparativa** das respostas — um fundamento crítico para as próximas etapas de desenvolvimento, como feedback estruturado e aprimoramento dos modelos.  
+- Interface para atribuição de nota global (1-5) a cada LLM após análise individual
+- Campo de justificativa detalhada para a decisão final
+- Armazenamento de métricas para priorização automática do melhor modelo
 
-Com essa entrega, garantimos que o sistema esteja **operacional, usável e pronto para evoluir** com as funcionalidades planejadas nas sprints seguintes.  
+
+**2. Integração com base científica vetorizada:**
+
+- Consumo de 15.000 artigos científicos (Dom Rock) via RAG
+- Respostas enriquecidas com referências validadas e contextualizadas
+
+**3. Dashboard de desempenho:**
+
+- Visualização gráfica comparativa (em barras) entre os LLMs
+- Métricas baseadas em avaliações humanas (média de notas, tendências)
+- Filtros por período e tópicos (ex.: Alzheimer)
+
+**4. Documentação e pipeline de RLHF:**
+
+- Guias técnicos para integração e manutenção do sistema
+- Configuração inicial do pipeline de Reinforcement Learning from Human Feedback (RLHF) para fine-tuning contínuo
+
+Essas funcionalidades elevam a plataforma a um patamar estratégico, permitindo decisões baseadas em dados científicos e feedback qualificado.
 
 
 <br>
@@ -41,68 +57,43 @@ Com essa entrega, garantimos que o sistema esteja **operacional, usável e pront
 
 ## :badger: Definição de DOR (Definition of Ready - DOR)
 
-O DOR define quando uma tarefa está pronta para ser trabalhada em uma sprint. O objetivo dessa Sprint foi implementar o fluxo básico de envio de prompts e exibição de respostas dos LLMs.
+O DOR define quando uma tarefa está pronta para ser trabalhada em uma sprint.
 
-**Tarefa:** Frontend da tela de prompts (Vue.js) - Criar interface com campo de input e botão de envio.
-
-**Critérios de Aceitação:** 
-1. Layout responsivo
-2. Validação de input
-3. Feedback visual durante loading
-
-**Tarefa:** Backend da tela de prompts (FastAPI) - Criar endpoint POST /chat.
+**Tarefa:** Comparação final de respostas (Frontend)
 
 **Critérios de Aceitação:**
-1. Receber JSON com prompt
-2. Retornar status 200 (OK)
-3. Retornar as respostas dos LLMs (OpenAI e Gemini)
+1. Componente com:
+      - Seleção de nota global (1-5) para cada LLM
+      - Campo de justificativa (mín. 30 caracteres)
+      - Botão para submeter decisão final
 
-**Tarefa:** Integração com OpenAI - Configurar API e formatar respostas.
-
-**Critérios de Aceitação:**
-1. Timeout de 15s
-2. Tratamento de erros
-3. Formato padrão de resposta
-
-**Tarefa:** Integração com Gemini - Configurar API e formatar respostas.
+**Tarefa:** Integração com base científica (Backend)
 
 **Critérios de Aceitação:**
-1. Timeout de 15s
-2. Tratamento de erros
-3. Formato padrão de resposta 
+1. Conexão com API da Dom Rock para buscar artigos
+2. Limite de 5 referências por resposta
 
-**Tarefa:** Frontend das respostas (Vue.js) - Criar view com 2 colunas para exibição.
-
-**Critérios de Aceitação:**
-1. Criação de componente que mostra a resposta
-2. O layout deve ser responsível
-3. Duas colunas devem mostrar as respostas dos LLMs recebido do backend
-
-**Tarefa:** Integração frontend-backend – frontend realizar requisição para as rotas do backend.
+**Tarefa:** Dashboard de desempenho (Frontend/Backend)
 
 **Critérios de Aceitação:**
-1. A página de prompt deverá realizar requisição POST com o input do usuário na rota /chat.
-2. A página de prompt deverá receber a resposta do backend e mostrar as respostas das LLMs usando o componente de resposta.
-3. Adicionar uma interface visual de loading enquanto o frontend espera a resposta do backend
+1. Gráfico de barras comparativas (duplas) para cada LLM contendo:
+      - Barra esquerda (azul): Número total de participações (vezes que o LLM respondeu a perguntas)
+      - Barra direita (verde): Número de vezes que foi avaliado como "melhor desempenho"
+      - Ordenação decrescente (LLM com mais participações à esquerda)
+2. Legenda clara e eixos identificados (LLMs no eixo X, contagem no eixo Y)
+3. Tooltips interativos mostrando:
+      - Números absolutos
+      - A quantidade total que o LLM participou da avaliação e obteve o melhor desempenho
 
-**Tarefa:** Banco de dados das avaliações das respostas (MongoDB) - Criar coleção avaliacao.
+**Tarefa:** Pipeline RLHF (Backend)
 
-Critérios de Aceitação:
-1. Criar coleção "avaliacao" no MongoDB com o seguinte schema: {
-    _id,
-    llm1,
-    llm2,
-    endereco_ip_user,
-    pergunta,
-    resposta_llm1,
-    resposta_llm2,
-    avaliacao_llm1,
-    avaliacao_llm2,
-    feedback_usuario,
-    melhor_performance
-}
-2. Criar modelo no FastApi que representa o schema avaliacao no banco.
+**Critérios de Aceitação:**
+1. Script para extrair avaliações do MongoDB
 
+**Tarefa:** Documentação técnica
+
+**Critérios de Aceitação:**
+1. Guia do usuário do sistema
 
 <br>
 
@@ -114,15 +105,23 @@ Critérios de Aceitação:
 O DOD define quando uma tarefa está concluída e pronta para ser entregue. Para esta sprint, os critérios obrigatórios:
 
 1. Funcionalidade:
-- Usuário consegue enviar prompt e ver respostas lado a lado
-- Tempo máximo de resposta: 20s (somando ambos LLMs)
+- Comparação final implementada e funcional
+- Dashboard exibe gráficos com dados reais
+- Respostas incluem referências científicas em 95% dos casos
 
 2. Qualidade:
-- Código revisado via Pull Request
+- Código revisado e testado
+- Dados exibidos consistentes com o banco de dados
+- Pipeline RLHF documentado e replicável
 
-3. Documentação:
-- Swagger dos endpoints POST: /chat, POST: /avaliacao, PUT: /avaliacao, GET: /avaliacao, DELETE: /avaliacao
-- README atualizado com instruções de deploy local
+3. Performance:
+- Busca na base científica ≤ 2s
+- Dashboard carrega em ≤ 1.5s
+- Atualização dos gráficos em ≤ 0.5s após filtragem
+
+4. Documentação:
+- Swagger atualizado com novos endpoints
+- README com instruções para acesso ao dashboard
 
 
 <br>
@@ -133,7 +132,7 @@ O DOD define quando uma tarefa está concluída e pronta para ser entregue. Para
 ## :dart: Backlog da Sprint
 
 <p align="center">
-      <img src="/Anexos/img/backlogs1.png" alt="Backlog da Sprint">
+      <img src="/Anexos/img/backlogs3.png" alt="Backlog da Sprint">
 
 
 

@@ -55,39 +55,39 @@ Essas funcionalidades representam um avanço significativo na capacidade do sist
 
 O DOR define quando uma tarefa está pronta para ser trabalhada em uma sprint. O objetivo dessa Sprint foi implementar o fluxo básico de envio de prompts e exibição de respostas dos LLMs.
 
-**Tarefa:** Sistema de avaliação de respostas (Frontend).
+**Tarefa:** Sistema de avaliação de respostas (Frontend)
 
 **Critérios de Aceitação:** 
-1. Componente de avaliação com: Seleção de nota (1-5 estrelas) para cada LLM. Campo de texto para justificativa. Botão de submissão.
-2. Validação para garantir que: Pelo menos uma avaliação foi fornecida. Justificativa tem no mínimo 20 caracteres.
+1. Componente de avaliação com: Seleção de nota (1-5 estrelas) para cada LLM. Campo de texto para justificativa. Botão de submissão
+2. Validação para garantir que: Pelo menos uma avaliação foi fornecida. Justificativa tem no mínimo 20 caracteres
 3. Feedback visual após submissão
 
-**Tarefa:** Banco de perguntas pré-definidas (Backend).
+**Tarefa:** Banco de perguntas pré-definidas (Backend)
 
 **Critérios de Aceitação:**
-1. Endpoint GET /perguntas que retorna: Lista das 30 perguntas sobre Alzheimer. Categorização por tópicos (se aplicável). 
+1. Endpoint GET /perguntas que retorna: Lista das 30 perguntas sobre Alzheimer. Categorização por tópicos (se aplicável)
 2. Modelo Pydantic para validação
 3. Dados armazenados no MongoDB
 
-**Tarefa:** Implementação RLHF (Backend).
+**Tarefa:** Implementação RLHF (Backend)
 
 **Critérios de Aceitação:**
-1. Processo periódico que: Agrega avaliações dos usuários. Calcula métricas de performance. Gera relatório para análise.
+1. Processo periódico que: Agrega avaliações dos usuários. Calcula métricas de performance. Gera relatório para análise
 2. Integração com sistema de treinamento
 3. Documentação do fluxo de dados
 
-**Tarefa:** Implementação RAG (Backend).
+**Tarefa:** Implementação RAG (Backend)
 
 **Critérios de Aceitação:**
-1. Integração com base vetorizada: Conexão com serviço de embeddings. Busca por similaridade. Limite de 3 referências por resposta.
-2. Modificação do endpoint /chat para: Incluir referências nas respostas. Manter formato compatível com frontend. 
+1. Integração com base vetorizada: Conexão com serviço de embeddings. Busca por similaridade. Limite de 3 referências por resposta
+2. Modificação do endpoint /chat para: Incluir referências nas respostas. Manter formato compatível com frontend
 3. Tratamento de falhas na busca
 
-**Tarefa:** Integração frontend-backend para avaliações.
+**Tarefa:** Integração frontend-backend para avaliações
 
 **Critérios de Aceitação:**
-1. Endpoint POST /avaliar que: Recebe estrutura completa de avaliação. Valida dados recebidos. Armazena no MongoDB.
-2. Frontend deve: Coletar todos os campos necessários. Enviar via POST para /avaliar. Tratar respostas (sucesso/erro).
+1. Endpoint POST /avaliar que: Recebe estrutura completa de avaliação. Valida dados recebidos. Armazena no MongoDB
+2. Frontend deve: Coletar todos os campos necessários. Enviar via POST para /avaliar. Tratar respostas (sucesso/erro)
 
 
 <br>
