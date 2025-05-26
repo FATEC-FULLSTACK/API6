@@ -127,7 +127,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 ## :movie_camera: Demonstração
 
-Confira o Mínimo Produto Viável (Minimum Viable Product - MVP) no link abaixo:
+Confira como nossa solução funciona na prática neste vídeo demonstrativo no link abaixo:
 
 [Link para vídeo no YouTube](https://www.youtube.com/watch?v=cXbXq8ZWd0A).
 

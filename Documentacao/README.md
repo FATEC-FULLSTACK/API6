@@ -23,7 +23,7 @@
 
 A documentação completa do produto, incluindo manual digital e especificações do sistema, está disponível no arquivo abaixo:
 
-[Documentação Técnica](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/Commits/Manual_Produto.pdf)
+[Documentação Técnica](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/Manual_Produto.pdf)
 
 <br>
 
