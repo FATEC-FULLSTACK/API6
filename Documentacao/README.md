@@ -11,7 +11,7 @@
 <br>
 <p align="center">
   <a href ="#doc"> Documentação do Produto</a>  | 
-  <a href ="#relatorio"> Documentação do Produto</a>  | 
+  <a href ="#relatorio"> Relatórios de LLMs</a>  | 
   <a href ="#backend"> Como Rodar BackEnd do Projeto </a>  |
   <a href ="#frontend"> Como Rodar FrontEnd do Projeto </a>  
 </p>
@@ -24,7 +24,7 @@
 
 A documentação completa do produto, incluindo manual digital e especificações do sistema, está disponível no arquivo abaixo:
 
-[Documentação Técnica](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/Manual_Produto.pdf)
+[Documentação Técnica](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/Manual_Produto_v2.pdf)
 
 <br>
 
@@ -46,10 +46,10 @@ Exemplos de relatórios gerados:
 
 | LLM | Link para o Relatório de Exemplo |
 |:---:|:--------------------------------:|
-| OpenAI | [Ver relatório da OpenAI](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-openai.docx) |
-| Gemini | [Ver relatório da Gemini](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-gemini.docx) |
-| DeepSeek | [Ver relatório da DeepSeek](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-deepseek.docx) |
-| Groq | [Ver relatório da Groq](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-groq.docx) |
+| OpenAI | [Ver relatório da OpenAI](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-openai.pdf) |
+| Gemini | [Ver relatório da Gemini](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-gemini.pdf) |
+| DeepSeek | [Ver relatório da DeepSeek](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-deepseek.pdf) |
+| Groq | [Ver relatório da Groq](https://github.com/FATEC-FULLSTACK/API6/blob/main/Anexos/img/relatorio-groq.pdf) |
 
 
 <br>
